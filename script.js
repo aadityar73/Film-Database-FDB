@@ -25,6 +25,8 @@ let errorMessage = document.querySelector('.error-message');
 
 movieContainer.classList.add('hidden');
 
+// let userIsLoggedIn = false;
+
 const setData = function (data) {
   title.textContent = data.Title;
   plot.textContent = data.Plot;
