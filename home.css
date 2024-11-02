@@ -1,0 +1,152 @@
+body {
+  color: #555;
+  background-color: #dee4f2;
+}
+
+.container {
+  padding: 0 3.2rem;
+}
+
+/**************************/
+/* Header section STYLING */
+/**************************/
+.header {
+  margin-top: 2.4rem;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+}
+
+/* Logout button styling */
+.logout-btn {
+  color: #333;
+  background-color: #eff1f8;
+
+  text-decoration: none;
+
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border: 1px solid #888;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.logout-btn:hover {
+  color: #eee;
+  background-color: #1b2439;
+}
+.logout-btn:active {
+  background-color: #121826;
+}
+
+/**************************/
+/* Seach container styling */
+/**************************/
+.search-container {
+  padding: 0.8rem;
+  margin-bottom: 6.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Search bar styling */
+.search-bar {
+  font-size: 1.8rem;
+  width: 64rem;
+  height: 4.8rem;
+  color: #333;
+  background-color: #eff1f8;
+
+  border: 1.5px solid #adbbde;
+  border-radius: 100px 0 0 100px;
+  outline: none;
+
+  padding: 2.4rem 2rem;
+
+  transition: all 0.3s;
+}
+.search-bar:focus {
+  border: 1.5px solid #5b77bd;
+}
+
+/* Search button styling */
+.search-btn {
+  padding: 1rem 1.2rem;
+  margin-left: -0.5px;
+
+  background-color: #2e3c5f;
+
+  border: 1.5px solid #333;
+  border-radius: 0 100px 100px 0;
+
+  cursor: pointer;
+}
+.search-btn:hover {
+  background-color: #24304c;
+}
+.search-btn:active {
+  background-color: #1b2439;
+}
+
+.feature-icon {
+  width: 4.8rem;
+  height: 2.4rem;
+  color: #eff1f8;
+}
+
+/**************************/
+/* Movie container styling */
+/**************************/
+.section-movie {
+  margin-top: 9.6rem;
+  margin-bottom: 6.4rem;
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  padding-right: 4.8rem;
+
+  color: #374771f2;
+  background-color: rgb(124, 146, 202, 0.15);
+  border-radius: 15px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.star-bg {
+  background-color: #9dadd7;
+}
+
+/**************************/
+/* Error container styling */
+/**************************/
+.error-container {
+  max-width: 55rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Error message styling */
+.error-message {
+  color: #d9534f;
+  font-size: 2.4rem;
+}
+
+/* Class to hide elements */
+.hidden {
+  display: none;
+}

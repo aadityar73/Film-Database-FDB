@@ -1,76 +1,33 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
 body {
-  font-family: 'Rubik', sans-serif;
-  line-height: 1;
-  font-weight: 400;
-  color: #555;
-  background-color: #ebf5fb;
+  color: #4a4a4a;
+  background-color: #f5f7fa;
 }
 
 .container {
-  max-width: 120rem;
-  padding: 9.6rem 3.2rem;
-  margin: 0 auto;
+  padding: 10rem 3.2rem;
+  height: 100vh;
+  background-color: #e6edf6;
 }
 
-.heading-secondary,
-.heading-tertiary {
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: #333;
-}
-
-.heading-secondary {
-  font-size: 4.4rem;
-  line-height: 1.2;
-  margin: 3.2rem 0;
-}
-
-.heading-tertiary {
-  color: #2f89c5;
-  font-size: 2.4rem;
-  line-height: 1.2;
-  margin-bottom: 3.2rem;
-}
-
-.btn {
-  color: #ebf5fb;
-  background-color: #3498db;
-
-  font-weight: 600;
-  font-size: 1.8rem;
-  padding: 1.2rem 2.4rem;
-  border: none;
-  border-radius: 100px;
-  margin-bottom: 4.2rem;
-  cursor: pointer;
-}
-.btn:hover {
-  background-color: #2f89c5;
-}
-.btn:active {
-  background-color: #2a7aaf;
-}
-
+/* Forms styling */
 .signup-form,
 .login-form {
   margin: 0 auto;
-  max-width: 55rem;
+  max-width: 50rem;
   background-color: #fff;
-  padding: 5rem 7rem;
-  border-radius: 5px;
+  padding: 4rem 5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Form Labels styling */
+.label {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #6a6f85;
+}
+
+/* Form inputs styling */
 .form-input {
   display: block;
   font-family: inherit;
@@ -79,38 +36,60 @@ body {
   margin-top: 1.2rem;
   border: none;
   width: 100%;
-  background-color: #f2f2f2;
-  border-bottom: 3px solid transparent;
+  background-color: #eef2f9;
+  border-bottom: 2px solid transparent;
   transition: all 0.3s;
   border-radius: 4px;
 }
 .form-input:focus {
   outline: none;
-  border-bottom: 3px solid #3498db;
+  background-color: #e3e8f1;
+  border-bottom: 2px solid #5b77bd;
 }
-
 .form-input::placeholder {
-  color: #bbb;
+  color: #a0a4b8;
 }
 
-.label {
-  font-size: 1.6rem;
-  font-weight: 500;
-  color: #777;
+/* Submit button styling */
+.submit-btn {
+  color: #fff;
+  background-color: #5b77bd;
+  font-weight: 600;
+  font-size: 1.8rem;
+  padding: 1.2rem 3rem;
+  border: none;
+  border-radius: 9px;
+  margin-bottom: 4.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
+.submit-btn:hover {
+  background-color: #526baa;
+}
+.submit-btn:active {
+  background-color: #495f97;
+}
+
+/**************************/
+/* Span element styling */
+/**************************/
 span {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
+/* Link styling */
 a:link,
 a:visited {
-  color: #48a2df;
+  color: #5b77bd;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s;
 }
 
 a:hover {
-  color: #3498db;
+  color: #4a67a3;
 }
 a:active {
-  color: #2f89c5;
+  color: #3d5988;
 }
